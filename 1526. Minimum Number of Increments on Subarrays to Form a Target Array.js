@@ -1,0 +1,1 @@
+var minNumberOperations = t => t.reduce((a, c, i)=> t?.[i-1] < c ? a + c - t[i-1] : a, t[0])
